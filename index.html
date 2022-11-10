@@ -1,0 +1,191 @@
+<head>
+  <title>MASTER Y KIMS World Class Tae Kwon Do</title>
+  <link rel="icon" type="image/x-icon" href="https://www.ykimtkd.com/wp-content/themes/MasterYKim/images/myk-logo.png">
+</head>
+<body>
+  <div id="navbar">
+    <img id="logo" src="https://www.ykimtkd.com/wp-content/themes/MasterYKim/images/myk-logo.png">
+    <a style="font-size:35px;font-weight: bold;">MASTER Y KIMS World Class Tae Kwon Do</a>
+    <img class="icon" src="https://img.icons8.com/material-outlined/512/home-page.png">
+    <img class="icon" src="https://img.icons8.com/material-outlined/512/about.png">
+    <img class="icon" src="https://img.icons8.com/material-outlined/512/full-version.png">
+    <img class="icon" src="https://img.icons8.com/material-outlined/512/trial-version.png">
+    <img class="icon" src="https://img.icons8.com/material-outlined/512/marker.png">
+    <a style="margin-left:20px;">
+    (This is not the official Webpage, for that go to https://www.ykimtkd.com/)</a>
+  </div>
+  <div id="main">
+    <center>
+    <div class="header">Videos</div>
+    <iframe id="mainvideo" src="https://www.youtube.com/embed/jYWtoWvzBPE"></iframe><br>
+    <iframe class="video" src="https://www.youtube.com/embed/ZMaKdOgu2Qo"></iframe>
+      <img onclick="window.open('https://www.youtube.com/channel/UCQtwSTq0iCxFv01HtUatz0A', '_blank');" class="videoimage" src="https://iili.io/yIP322.png">
+    
+      <br>
+      <div class="header">Classes</div>
+      <img id="mainimage" src="https://www.ykimtkd.com/wp-content/uploads/2013/01/kids-class.jpg">
+      <br>
+      <img class="image" src="https://www.ykimtkd.com/wp-content/uploads/2013/11/adult-class-1.jpg">
+      <img class="image" src="https://www.ykimtkd.com/wp-content/uploads/2020/04/online-class-1.jpg">
+      <br>
+      <img class="image" src="https://www.ykimtkd.com/wp-content/uploads/2013/01/Little-Tigers.jpg">
+      <img class="image" src="https://www.ykimtkd.com/wp-content/uploads/2013/11/family-class-1.jpg">
+      <br>
+      <div class="header">Events</div>
+      <img class="image" src="https://www.ykimtkd.com/wp-content/uploads/2013/01/summer-camp.jpg">
+      <img class="image" src="https://www.ykimtkd.com/wp-content/uploads/2013/01/birth-day.jpg">
+      
+      <div class="signup">
+        Select Location<br>
+        <select>
+          <option>Frisco, TX</option>
+          <option>Wentzville, MO</option>
+        </select>
+        <br><br>
+        Your name <a style="font-size:10px;">(required)</a><br>
+        <input><br><br>
+        Your Email <a style="font-size:10px;">(required)</a><br>
+        <input><br><br>
+        Your Phone Number<br>
+        <input><br><br>
+        Your message<br>
+        <textarea></textarea><br><br>
+        Best way(s) to contact you<br>
+        Phone <input type="checkbox">
+        Email <input type="checkbox">
+        <br><br>
+        <button >Submit</button>
+      </div>
+      </center>
+  </div>
+  <style>
+body{
+  font-family:monospace;
+}
+#navbar{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:80px;
+  background:#11AA11;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+  font-family: Calibri;
+  display:flex;
+  align-items:center;
+  color:white;
+  cursor:default;
+}
+
+#logo{
+  height:75px;
+  padding:2.5px;
+  padding-top:1px;
+  margin-right:20px;
+}
+
+.icon{
+  height:40px;
+  padding:5px;
+  margin-left:10px;
+  filter:invert(1);
+  background-color:#FF22FF;
+  border-radius:18px;
+  transition:0.5s;
+}
+.icon:hover{
+  border-radius:5px;
+  filter:invert(1);
+  background-color:#BB33BB;
+  cursor:pointer;
+}
+
+#main{
+  margin-top:90px;
+}
+
+#mainvideo{
+  border:none;
+  border-radius:10px;
+  
+  width:640px;
+  height:360px;
+}
+.video{
+  border:none;
+  border-radius:10px;
+  width:318px;
+  height:180px;
+}
+
+.videoimage{
+  border:none;
+  border-radius:10px;
+  width:318px;
+  height:180px;
+  transition:0.5s;
+  cursor:pointer;
+}
+.videoimage:hover{
+  filter:brightness(1.1);
+}
+#mainimage{
+  width:640px;
+  border-radius:10px;
+  cursor:pointer;
+}
+.image{
+  width:318px;
+  border-radius:10px;
+  cursor:pointer;
+}
+.header{
+  width:642px;
+  background-color:#00CC00;
+  margin:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:30px;
+  border-radius:10px;
+  color:white;
+  cursor:default;
+}
+.signup{
+  width:642px;
+  background-color:#00CC00;
+  margin:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:10px;
+  color:white;
+  font-family:Arial;
+}
+input{
+  border-radius:5px;
+  border:solid gray 1px;
+}
+textarea{
+  border-radius:5px;
+  border:solid gray 1px;
+  resize: none;
+  width:200px;
+  height:130px;
+}
+button{
+  width:600px;
+  font-size:30px;
+  margin-bottom:10px;
+  border-radius:20px;
+  border:1px solid gray;
+  background-color:#00DD00;
+  color:white;
+  transition:0.5s;
+}
+button:hover{
+  border-radius:5px;
+  background-color:#00FF00;
+  color:white;
+}
+  </style>
+</body>
